@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  text-rendering: optimizeLegibility;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 4.2rem;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+.container {
+  padding: 1rem;
+  /* text-align: center; */
+}
+.row {
+  max-width: 114rem;
+  margin: 2rem auto;
+}
+
+/* Registration Section */
+
+.registration-section .container .row {
+  border: 0.15rem solid #f2f2f2;
+  padding: 2rem;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: #f2f2f2;
+}
+
+input,
+label,
+textarea {
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  border: 1px solid #000000;
+  /* background: #f1f1f1; */
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+textarea:hover {
+  /* outline: none; */
+  /* background-color: #ddd; */
+  border: 1px solid #4caf50;
+}
+
+hr {
+  border: 0.1rem solid #f1f1f1;
+  margin-bottom: s2rem;
+}
+
+/* Button */
+.btn {
+  color: white;
+  padding: 1.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.btn-submit {
+  background-color: #4caf50;
+  width: 100%;
+}
+
+.btn:hover {
+  opacity: 1;
+}

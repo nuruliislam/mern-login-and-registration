@@ -1,0 +1,26 @@
+{
+  "name": "mern-login-and-registration",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuruliislam/mern-login-and-registration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuruliislam/mern-login-and-registration/issues"
+  },
+  "homepage": "https://github.com/nuruliislam/mern-login-and-registration#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
